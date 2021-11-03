@@ -1,7 +1,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.exchange_rate">
+    <uses-permission android:name="android.permission.INTERNET" />
    <application
         android:label="exchange_rate"
+        android:usesCleartextTraffic="true"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"
