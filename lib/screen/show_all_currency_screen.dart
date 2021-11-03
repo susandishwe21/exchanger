@@ -3,7 +3,6 @@ import 'package:exchange_rate/controller/currency_controller.dart';
 import 'package:exchange_rate/model/Rate.dart';
 import 'package:exchange_rate/model/currency.dart';
 import 'package:exchange_rate/screen/calculate_currency.dart';
-import 'package:exchange_rate/service/currency_service.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
